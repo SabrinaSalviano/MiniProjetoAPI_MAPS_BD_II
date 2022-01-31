@@ -1,0 +1,112 @@
+/* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+       #map {
+        width: 50%;
+        height: 100%;
+        float:left;
+      }
+
+      #form {    
+        width: 50%;
+        height: 100%;
+        justify-content: center;
+        float: right;
+      }
+      
+      /* Optional: Makes the sample page fill the window. */
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      
+      .input{
+        position: relative;
+        width: 50%;
+        height: 50px;
+        left: 175px;
+        color: #1f1f1f;
+        box-shadow: 0 0 1em  #c2c2c1;
+        border: none;
+        top: 495px;
+        font-size: 25px;
+      
+        
+        }
+      
+      .titulo{
+        position: relative;
+        top: 480px;
+        left: 120px;  
+        color:#802c28;
+        font-size: 25px;
+      }
+
+      .titulo2{
+        position: absolute;
+        top: 680px;
+        right: 300px;  
+        color:#1f1f1f;
+        font-size: 15px;
+        font-family: sans-serif;
+      }
+
+      .texto{
+        position:absolute ;
+        top: 245px;
+        right: 350px; 
+        color:#802c28;
+        font-size: 40px;
+        font-family: sans-serif;
+      }
+
+      .button{
+        position: relative;
+        width: 30%;
+        height: 50px;
+        left: 125px;
+        top: 520px;
+        font-size:21px;
+        font-weight: bold;
+        font-family: sans-serif;
+        background-color: #5384c4;
+        color: whitesmoke;
+        border-radius: 5px;
+        border: 1px #5384c4 solid;
+        cursor: pointer;
+      }
+      button:active{
+        transform:scale(0.99);
+        transform-origin: center;
+      }
+
+      .button1{
+        position: relative;
+        width: 30%;
+        height: 50px;
+        left: 150px;
+        top: 520px;
+        font-size:21px;
+        font-weight: bold;
+        font-family: sans-serif;
+        background-color: #5384c4;
+        color: whitesmoke;
+        border-radius: 5px;
+        border: 1px #5384c4 solid;
+        cursor: pointer;
+      }
+      button:active{
+        transform:scale(0.99);
+        transform-origin: center;
+      }
+      
+      .img{
+        width: 20%;
+        height: auto;
+        right: 475px;
+        top: 145px;
+        position: absolute;
+        background-size: 100%;
+        background-repeat: no-repeat;
+      }
